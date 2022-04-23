@@ -4173,13 +4173,13 @@ button {
     background-color: rgb(51 119 255 / 20%);
 }
 #testimonial-slider-v5 .slick-dots li.slick-active {
-    background-color: #3377FF;
+    background-color: #F88D2F;
 }
 #testimonial-slider-v5 .slick-dots li:after {
     border-color: rgb(51 119 255 / 20%);
 }
 #testimonial-slider-v5 .slick-dots li.slick-active:after {
-    border-color: #3377FF;
+    border-color: #F88D2F;
 }
 #testimonial-slider-v5 .slick-list {
     margin: 0 -15px;
