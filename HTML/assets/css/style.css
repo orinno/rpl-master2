@@ -242,7 +242,7 @@ button {
     background-color: #2f5e81;
 }
 .bg-royal-blue {
-    background-color: #473BF0;
+    background-color: #2f5e81;
 }
 .bg-burning-orange{
     background-color: #F4732A;
@@ -269,7 +269,7 @@ button {
     background-color: #161C2D;
 }
 .bg-dark-blue {
-    background-color: #2B354F;
+    background-color: #2f5e81;
 }
 .bg-dark-black-v2 {
     background-color: #1B202F;
@@ -299,9 +299,9 @@ button {
     border-bottom: 1px solid rgb(130 8 254 / 12%);
 }
 .section-gradient-1 {
-    background-image: -moz-linear-gradient( -38deg, rgb(0,64,229) 0%, rgb(2,140,235) 59%, rgb(4,215,241) 100%);
-    background-image: -webkit-linear-gradient( -38deg, rgb(0,64,229) 0%, rgb(2,140,235) 59%, rgb(4,215,241) 100%);
-    background-image: -ms-linear-gradient( -38deg, rgb(0,64,229) 0%, rgb(2,140,235) 59%, rgb(4,215,241) 100%);
+    background-image: -moz-linear-gradient( -38deg, #2f5e81 10%, #376c94 59%, #4b8dc0 100%);
+    background-image: -webkit-linear-gradient( -38deg, #2f5e81 10%, #376c94 59%, #4b8dc0 100%);
+    background-image: -ms-linear-gradient( -38deg, #2f5e81 10%, #376c94 59%, #4b8dc0 100%);
 }
 .position-relative{
     position: relative;
@@ -584,7 +584,7 @@ button {
     background-color: #fff;
 }
 .filled-btn.bg-clear-blue {
-    background-color: #3377FF;
+    background-color: #2f5e81;
     -webkit-box-shadow: 0px 10px 30px 0px rgb(51 119 255 / 30%);
     box-shadow: 0px 10px 30px 0px rgb(51 119 255 / 30%);
 }
@@ -1422,11 +1422,11 @@ button {
     background-color: #E25C6A;
 }
 .scroll-to-top.bg-clear-blue {
-    background-color: #2f5e81;
+    background-color: #F88D2F;
 }
 .scroll-to-top.bg-red:hover,
 .scroll-to-top.bg-clear-blue:hover {
-    background-color: #161c2d;
+    background-color: #2f5e81;
 }
 
 /* List Style */
@@ -4130,7 +4130,7 @@ button {
     height: 100%;
     width: 100%;
     z-index: -2;
-    background-color: #3377FF;
+    background-color: #2f5e81;
     top: 0px;
     left: 0px;
     border-radius: 12px;
@@ -9128,12 +9128,10 @@ button {
     color: #fff;
 }
 .footer-area.footer-area-v4 .footer-social-links ul li a {
-    background: #3C4869;
     border: 2px solid #3C4869;
-    color: #7285b7;
 }
 .footer-area.footer-area-v4 .footer-widget-menu ul li a i{
-    color: #3377FF;
+    color: #F88D2F;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
