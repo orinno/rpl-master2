@@ -5942,7 +5942,7 @@ button {
 }
 .subscribe-newsletter .subscribe-newsletter-form .form-group button.filled-btn {
     width: 150px;
-    padding: 8px 10px;
+    padding: 8px 20px;
     color: #fff;
     background-color: #F88D2F;
     border: none;
@@ -8981,8 +8981,8 @@ button {
 }
 .footer-copyright-area {
     border-top: 1px solid #1A53E8;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .footer-copyright-area .footer-copyright{
     text-align: right;
@@ -9056,7 +9056,7 @@ button {
     border-color: rgb(255 255 255 / 15%);
 }
 .footer-area.footer-area-v2 .footer-copyright-area{
-    padding: 35px 0;
+    padding: 20px 0;
 }
 /* Footer Area V3 */
 .footer-area.footer-area-v3,
@@ -9145,7 +9145,7 @@ button {
     color: #fff;
 }
 .footer-area.footer-area-v4 .footer-copyright-area{
-    padding: 26px 0 26px;
+    padding: 15px 0 15px;
 }
 .footer-area.footer-area-v4 .footer-area-internal {
     padding-top: 75px;
