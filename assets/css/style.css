@@ -5929,7 +5929,7 @@ button {
             justify-content: space-between;
 }
 .subscribe-newsletter .subscribe-newsletter-form .form-group input[type="email"] {
-    height: 65px;
+    height: 45px;
     border-radius: 50px;
     border: 0;
     color: #1f1f1f;
@@ -5938,22 +5938,19 @@ button {
     padding: 0 40px;
     width: 70%;
     justify-content: space-between;
+    position: relative;
 }
 .subscribe-newsletter .subscribe-newsletter-form .form-group button.filled-btn {
-    width: 245px;
-    padding: 10px 38px;
+    width: 150px;
+    padding: 8px 10px;
     color: #fff;
-    border-color: #fff;
+    background-color: #F88D2F;
+    border: none;
     box-shadow: none;
+    position: absolute;
+    right: 40px;
 }
-.subscribe-newsletter .subscribe-newsletter-form .form-group button.filled-btn:hover {
-    border-color: #fff;
-    background-color: #fff;
-    color: #161c2d;
-}
-.subscribe-newsletter .subscribe-newsletter-form .form-group button.filled-btn:after {
-    background-color: #fff;
-}
+
 
 /* 13. FAQ Area */
 .faq-area{
