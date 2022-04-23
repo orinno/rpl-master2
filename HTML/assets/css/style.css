@@ -257,7 +257,7 @@ button {
     background-color: #EDF2FD;
 }
 .bg-tuna {
-    background-color: #36234B;
+    background-color: #2f5e81;
 }
 .bg-alice-blue {
     background-color: #F0F6FF;
@@ -333,7 +333,7 @@ button {
 /* Template Button */
 .filled-btn, .filled-btn.btn-bordered {
     display: inline-block;
-    background: #473BF0;
+    background: #2f5e81;
     color: #fff;
     padding: 12px 40px;
     font-size: 15px;
