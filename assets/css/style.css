@@ -2842,7 +2842,7 @@ button {
     color: #161c2d;
 }
 .header-area.header-v6 .header-navigation.sticky .main-menu > ul > li > a:hover {
-    color: #F88D2F;
+    color: #2f5e81;
 }
 .header-area.header-v6 .header-navigation .navbar-toggler span{
     background-color: #fff;
@@ -2878,7 +2878,7 @@ button {
 }
 .header-area.header-v6 .header-navigation.sticky .main-menu > ul > li > a.active:after {
     bottom: 30px;
-    background: #2f5e81;
+    background: #F88D2F;
 }
 .header-area.header-v6 .header-navigation .main-menu > ul > li > a:after{
     opacity: 0;
@@ -2906,7 +2906,7 @@ button {
 .header-area.header-v6 .header-navigation .main-menu ul li .sub-menu li a.nav-link.active,
 .header-area.header-v6 .header-navigation.sticky .main-menu ul li>a.nav-link.active 
 {
-    color: #f88d2f;
+    color: #2f5e81;
 }
 .header-area.header-v6 .header-navigation .main-menu ul li .sub-menu li a.nav-link.active:hover {
     color: #F88D2F;
@@ -9275,10 +9275,12 @@ footer .langganan-berita .card .card-body .input-group input:hover{
 }
 
 /* Footer Area V4 (Home V6) */
+/*
 .footer-area.footer-area-v4,
 .footer-area.footer-area-v4 {
     border-top: 3px solid #999;
 }
+*/
 .footer-area.footer-area-v4 .footer-area-internal {
     border-bottom: 1px solid #394565;
 }
