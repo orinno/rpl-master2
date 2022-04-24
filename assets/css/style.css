@@ -2836,6 +2836,7 @@ button {
 .header-area.header-v6 .header-navigation .main-menu ul li .sub-menu li a:hover  {
     color: #fff;
 }
+
 .header-area.header-v6 .header-navigation.sticky .main-menu ul li>a,
 .header-area.header-v6 .header-navigation .main-menu ul li .sub-menu li a,
 .header-area.header-v6 .header-navigation.breakpoint-on .main-menu ul li>a {
@@ -2911,6 +2912,9 @@ button {
 .header-area.header-v6 .header-navigation .main-menu ul li .sub-menu li a.nav-link.active:hover {
     color: #F88D2F;
 }
+.header-navigation .nav-menu .main-menu .menu-item .nav-link.active{
+    color: #fff;
+}
 .header-area.header-v6 .header-navigation .main-menu > ul > li > a:hover{
     color: #fff;
 }
@@ -2921,6 +2925,9 @@ button {
 .header-area.header-v6 .header-navigation .main-menu ul> li > a {
     padding-left: 0;
     padding-right: 0;
+}
+.header-area.header-v6 .header-navigation .main-menu ul> li > a .nav-link :active{
+    color: #2f5e81;
 }
 .header-area.header-v6 .header-navigation .main-menu > ul > li {
     margin-right: 30px;
