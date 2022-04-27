@@ -301,7 +301,7 @@ button {
     border-radius: 10px;
 }
 .judul-galeri{
-    padding-left: 10px;
+    padding-left: 12px;
     font-family: 'CircularStdBook';
     padding-top: 10px;
 }
@@ -328,6 +328,7 @@ button {
 }
 .home-demo {
     padding: 1rem 0;
+    cursor: grab;
 }
 .home-demo .row:before, .row:after {
     content: " ";
