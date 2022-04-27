@@ -295,13 +295,15 @@ button {
     padding: 10px;
     border: none;
     border: none;
+    margin: 10px;
 }
 .br-img{
     border-radius: 10px;
 }
 .judul-galeri{
-    background-color: rgba(153, 153, 153, 0.514);
-    padding: 10px;
+    padding-left: 10px;
+    font-family: 'CircularStdBook';
+    padding-top: 10px;
 }
 .judul-galeri .post ul{
     display: -webkit-box;
@@ -316,9 +318,64 @@ button {
 }
 .judul-galeri .post ul li a i{
     margin-right: 7px;
+    font-size: medium;
 }
-/*end custom*/
+/*owl*/
+.section-internal .container{
+    border-right: 2px solid antiquewhite;
+    background-color: #ffffff1f;
+    border-left: 2px solid antiquewhite;
+}
+.home-demo {
+    padding: 1rem 0;
+}
+.home-demo .row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.column, .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left;
+}
+.column, .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+}
+@media only screen and (min-width: 40.0625em) {
+   .column, .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+} 
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: none;
+}
 
+
+/*end custom*/
 .bg-contain {
     background-size: contain;
     background-position: top center;
@@ -846,8 +903,7 @@ button {
     padding: 0;
 }
 .section-title.section-title-white .filled-btn.btn-bordered {
-    border: 2px solid #356CFB;
-    color: #fff;
+    border: 2px solid #2f5e81;
 }
 .section-title.section-title-white .filled-btn.btn-bordered:hover:after,
 .section-title.section-title-white .filled-btn.btn-bordered:after{
@@ -2376,7 +2432,7 @@ button {
     padding: 0;
     background: rgba(47, 93, 129);
     color: #fff;
-    font-family: 'CircularStdBold';
+    font-family: 'CircularStdBook';
     font-size: 12px;
     width: 4.5rem;
     margin: 2px;
@@ -2386,7 +2442,7 @@ button {
     padding: 0;
     background: #333;
     color: #fff;
-    font-family: 'CircularStdBold';
+    font-family: 'CircularStdBook';
     font-size: 12px;
     width: 4.5rem;
     border-radius: 50px;
@@ -4054,7 +4110,7 @@ button {
 .single-testimonial.single-testimonial-v2 {
     background-color: #fff;
     border-radius: 12px;
-    padding: 45px 45px 51px 45px;
+    padding: 10px;
     margin: 10px;
 }
 .single-testimonial.single-testimonial-v2 p{
@@ -9099,7 +9155,9 @@ footer .langganan-berita{
 }
 .card-body{
     flex: 1 1 auto;
-    padding: 1rem;
+    margin: 2px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .pb-2{
     padding-bottom: 0.5rem!important;
@@ -9192,6 +9250,7 @@ footer .copyright .sosial-media a {
 footer .menu{
     padding: 10px;
     font-size: 15px;
+    font-family: 'CircularStdBook';
 }
 footer .berlangganan-berita{
     padding: 10px;
@@ -9256,6 +9315,7 @@ footer .langganan-berita .card .card-body .input-group input:hover{
 .footer-area .single-footer-widget.contact-us-widget .footer-widget-menu ul li a {
     padding-left: 25px;
     padding-right: 20px;
+    font-family: 'CircularStdBook';
 }
 .footer-area .single-footer-widget.contact-us-widget .footer-widget-menu ul li a i {
     position: absolute;
