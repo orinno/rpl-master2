@@ -378,6 +378,41 @@ button {
 .pad-menu{
     padding-right: 1rem;
 }
+/* card responsive author */
+article .card{
+    width: 30rem;
+    background-color: #2f5d8127;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    padding: 27px 30px 20px 30px;
+}
+.card-image{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-information-title{
+    font-size: 3rem;
+}
+.card-information-desc{
+    font-size: 1.4rem;
+}
+@media screen and (min-width: 34.375rem) {
+    article .card{
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+    .card-image{
+        flex: 0 0 20rem;
+    }
+    .card-information-desc{
+        font-size: 1.6rem;
+    }
+}
 
 /*end custom*/
 .bg-contain {
@@ -4214,7 +4249,7 @@ button {
     width: 12px;
     margin: 0;
     margin-right: 10px;
-    background-color: #393E4C;
+    background-color: #fff;
 }
 .testimonial-slider.testimonial-slider-v4 .slick-dots li.slick-active {
     background-color: #F88D2F;
@@ -4251,7 +4286,7 @@ button {
     margin-right: 15px;
 }
 .single-testimonial.single-testimonial-v4 .testimonial-author h6 span {
-    color: #a5abbc;
+    color: #F88D2F;
     font-size: 15px;
     text-transform: capitalize;
 }
@@ -8925,7 +8960,7 @@ button {
 
 /* Blog Posts Sidebar */
 .posts-sidebar .widget {
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 .posts-sidebar .widget:last-child {
     margin-bottom: 0;
@@ -9074,8 +9109,9 @@ button {
     color: #473bf0;
 }
 .posts-sidebar .widget.widget-testimonial {
-    padding: 36px 34px 26px 34px;
-    background-color: #161C2D;
+    padding: 36px 33px 26px 34px;
+    background-color: #2f5e81;
+    border-radius: 5px;
 }
 .posts-sidebar .widget.widget-testimonial .single-testimonial.single-testimonial-v4 .testimonial-author {
     margin-top: 23px;
