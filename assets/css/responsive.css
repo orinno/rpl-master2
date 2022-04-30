@@ -146,11 +146,11 @@
         width: 0;
         top: 0;
         left: 0;
+        right: 0;
         background: #f88d2f;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s;
-        margin-top: 3.2rem;
     }
     /*
     .header-navigation .main-menu ul li.menu-item-has-children > a:before {
@@ -175,6 +175,8 @@
     } 
     .header-navigation .main-menu > ul > li > a.active:after {
         width: 100%;
+        left: 3px;
+        margin-top: 3.2rem;
     }
     /*
     .header-navigation .main-menu > ul > li > a:hover:after {
@@ -1944,7 +1946,7 @@
     .blog-details-wrapper .post-author-box .post-author-thumbnail {
         min-width: 100px;
         max-width: 100px;
-        margin-bottom: 25px;
+        margin-bottom: 0px;
     }
     .blog-details-wrapper .blog-details-content .comments-respond{
         margin-top: 40px;
