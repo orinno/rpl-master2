@@ -281,6 +281,10 @@ button {
 }
 .bg-blue-pias{
     background-color: rgba(47, 93, 129, 0.075);
+    border-bottom: 2px solid rgb(0 0 0 / 6%);
+}
+.bg-blue-set{
+    background-color: rgba(47, 93, 129, 0.712);
 }
 
 /* CUSTOM */
@@ -449,6 +453,51 @@ article .card{
 .grid-container img{
     border-radius: 8px;
 }
+.line{
+    height: 3px;
+    width: auto;
+    color: #2f5d8136;
+    text-decoration-line: underline;
+    border-top: 1px solid #2f5d8165;
+}
+/*staf guru*/
+.guru .title-guru{
+    text-align: left;
+}
+.box{
+    box-shadow: 5px 20px 30px 5px rgb(0 0 0 / 10%);
+    border-radius: 50px;
+}
+.name-guru .wadah{
+    text-align: center;
+}
+.guru .img-guru{
+    text-align: center;
+}
+.guru .img-guru img{
+    width: 95%;
+    border-radius: 10px;
+    text-align: center;
+}
+.guru .name-guru{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 15px 15px rgb(0 0 0 / 10%);
+    position: sticky;
+    margin-top: -30px;
+    width: 70%;
+    margin-left: 15%;
+}
+.title-staf{
+    text-align: center;
+    color: #333;
+}
+/* customer faq */
+.customer-faq{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 /*end custom*/
 .bg-contain {
@@ -525,8 +574,8 @@ article .card{
     position: relative;
     z-index: 1;
     overflow: hidden;
-    -webkit-box-shadow: 0px 10px 30px 0px rgba(71, 59, 240, 0.36);
-    box-shadow: 0px 10px 30px 0px rgba(71, 59, 240, 0.36);
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(47, 94, 129, 0.36);
+    box-shadow: 0px 10px 30px 0px rgba(47, 94, 129, 0.36);
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -1799,7 +1848,7 @@ article .card{
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .sub-menu li a:hover,
 .header-navigation.breakpoint-on .main-menu > ul > li > a:hover {
-    color: #473BF0;
+    color: #2f5e81;
 }
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .sub-menu {
     width: 100%;
@@ -1908,7 +1957,7 @@ article .card{
     right: 0;
     z-index: 12;
     display: none;
-    background: #473BF0;
+    background: #2f5e81;
     padding: 5px;
 }
 .header-navigation .navbar-close .cross-wrap {
@@ -4893,7 +4942,7 @@ article .card{
     margin-bottom: 30px;
 }
 .counter-up-area .counterup-internal {
-    padding: 63px 75px 33px 75px;
+    padding: 30px 10px 10px 10px;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 0px 20px rgb(244 115 42 / 7%);
             box-shadow: 0px 0px 0px 20px rgb(244 115 42 / 7%);
