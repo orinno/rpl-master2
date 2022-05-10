@@ -27,11 +27,13 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         <!-- Place favicon in the root directory -->
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
+        <link rel="stylesheet" href="assets/plugin/owl-carousel/owl.carousel.css"/>
+        <link rel="stylesheet" href="assets/plugin/owl-carousel/owl.theme.default.min.css"/>
     </head>
     <body>
         <!--======= Start Preloader =======-->
         <div class="preloader">
-            <img class="preloader-image" width="60" src="assets/img/preloader-logo.png" alt="preloader"/>
+            <img class="preloader-image" width="300" src="assets/img/logo-rpl.png" alt="preloader"/>
         </div> <!-- /.preloader -->
         <!--======= End Preloader =======-->
         <!--====== Start Search From ======-->
@@ -58,8 +60,8 @@
                             <div class="site-branding-and-language-selection">
                                 <div class="brand-logo">
                                     <a href="index.html">
-                                        <img src="assets/img/logo-clear-blue.png" alt="logo v1" class="logo-v1">
-                                        <img src="assets/img/logo-royal-blue.png" alt="logo v2" class="logo-v2">
+                                        <img src="assets/img/logo-rpl.png" alt="logo v1" class="logo-v1" style="width: 130px; height: 100px;">
+                                        <img src="assets/img/logo-rpl.png" alt="logo v2" class="logo-v2" style="width: 130px; height: 100px;">
                                     </a>
                                 </div>
                             </div>
@@ -655,21 +657,27 @@
         </div> <!-- /.brands-area -->
         <!--======= End Brands Slider =======-->
         <!--====== Start Blog or News Area ======-->
-        <section class="blog-and-news-area blog-news-v3 pt-120 pb-90">
-            <div class="container">
+        <section class="blog-and-news-area blog-news-v3 pt-75 pb-50">
+            <div class="container-fluid">
                 <div class="section-internal">
+                    <div class="section-particle-effect d-none d-md-block">
+                        <img class="particle-1 animate-zoom-fade" width="150px" src="assets/img/particle/launch-rocket.png" alt="particle One">
+                        <img class="particle-2 animate-float-bob-y" width="100px" src="assets/img/particle/komputer.png" alt="particle Two">
+                        <img class="particle-3 animate-zoominout" width="100px" src="assets/img/particle/titik-koma.png" alt="particle Three">
+                        <img class="particle-4 animate-zoominout" src="assets/img/particle/ketupat.png" alt="particle Four">
+                        <img class="particle-5 animate-zoominout" src="assets/img/particle/particle-5.png" alt="particle Five">
+                        <img class="particle-6 animate-zoom-fade" src="assets/img/particle/plus.png" alt="particle Six">
+                    </div>
                     <div class="row">
-                        <div class="col-lg-5">
-                            <div class="section-title section-title-clear-blue mb-70">
-                                <div class="section-heading-tag">
-                                    <span class="single-heading-tag">Recent Projects</span>
-                                </div>
-                                <h2>Latest Case Studies</h2>
+                        <div class="col-lg-5 mx-auto text-center">
+                            <div class="section-title section-title-clear-blue mb-30 center" data-heading="Artikel">
+                                <span class="single-heading-tag badge-heading">Artikel</span>
+                                <h2>Artikel Terbaru</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4">
+                    <div class="row"> 
+                        <div class="col-lg-3 col-md-6">
                             <div class="blog-post-item blog-post-item-v5 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
                                 <div class="post-thumbnail">
                                     <a href="blog-details.html">
@@ -689,7 +697,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-3 col-md-6">
                             <div class="blog-post-item blog-post-item-v5 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
                                 <div class="post-thumbnail">
                                     <a href="blog-details.html">
@@ -709,7 +717,27 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="blog-post-item blog-post-item-v5 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1500ms">
+                                <div class="post-thumbnail">
+                                    <a href="blog-details.html">
+                                        <img src="assets/img/blog/blog-thumbnail-10.jpg" alt="blog thumbnail three">
+                                    </a>
+                                </div>
+                                <div class="blog-post-entry-content">
+                                    <div class="post-meta-wrapper">
+                                        <ul>
+                                            <li><a href="#" class="post-meta">Investment Solutions</a></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="post-title"><a href="blog-details.html">Great Expectas Using Story Principles Anticipate</a></h4>
+                                    <div class="post-read-more">
+                                        <a href="blog-details.html" class="filled-btn bg-blue-chalk">Read more <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
                             <div class="blog-post-item blog-post-item-v5 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1500ms">
                                 <div class="post-thumbnail">
                                     <a href="blog-details.html">
@@ -732,8 +760,94 @@
                     </div>
                     <!-- View More Services Button -->
                     <div class="section-button-wrapper">
-                        <a href="blog-standard.html" class="filled-btn btn-bordered bg-clear-blue">
-                            View All Cases <i class="fas fa-arrow-right"></i>
+                        <a href="blog-standard.html" class="filled-btn bg-blue-chalk">
+                            Lihat Semua Artikel <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div> <!-- /.section-internal -->
+            </div> <!-- /.container -->
+        </section> <!-- /.blog-and-news-area --> 
+        <!--====== End Blog or News Area ======-->
+         <!--====== Start Blog or News Area ======-->
+        <section class="our-services bg-dark-blue galeri blog-and-news-area blog-news-v3 pt-75 pb-50">
+            <div class="container-fluid">
+                <div class="section-internal">
+                    <div class="section-particle-effect d-none d-md-block">
+                        <img class="particle-1" width="150px" src="assets/img/particle/camera-icon.png" alt="particle One">
+                        <img class="particle-6 d-md-none d-lg-block" width="400px" src="assets/img/particle/icon-gallery.png" alt="particle Six">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 mx-auto text-center">
+                            <div class="section-title galeri-foto mb-40 center" data-heading="Galeri">
+                                <span class="single-heading-tag badge-heading">Galeri</span>
+                                <h2 class="text-white">Galeri Terbaru</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row owl-carousel owl-theme galeri-foto-carousel mx-auto mx-md-none">
+                        <!-- Single Feature Box -->
+                        <div class="item-galeri">
+                            <div class="card">
+                                <div class="card-body row">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <a class="text-decoration-none">
+                                <h5 class="pt-3">Pelepasan Kepala Sekolah SMKN 1 Ciamis</h5>
+                            </a>
+                            <p>Senin, 07 Februari 2022 • oleh Reihan Andika</p>
+                        </div>
+                        <div class="item-galeri">
+                            <div class="card">
+                                <div class="card-body row">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <a class="text-decoration-none">
+                                <h5 class="pt-3">Pelepasan Kepala Sekolah SMKN 1 Ciamis</h5>
+                            </a>
+                            <p>Senin, 07 Februari 2022 • oleh Reihan Andika</p>
+                        </div>
+                        <div class="item-galeri">
+                            <div class="card">
+                                <div class="card-body row">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <a class="text-decoration-none">
+                                <h5 class="pt-3">Perpisahan Jurusan Rekayasa Perangkat Lunak</h5>
+                            </a>
+                            <p>Senin, 07 Februari 2022 • oleh Reihan Andika</p>
+                        </div>
+                        <div class="item-galeri">
+                            <div class="card">
+                                <div class="card-body row">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                    <img src="assets/img/blog/blog-thumbnail-10.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <a class="text-decoration-none ">
+                                <h5 class="pt-3">Ketua Jurusan Kami</h5>
+                            </a>
+                            <p>Senin, 07 Februari 2022 • oleh Reihan Andika</p>
+                        </div>
+                        <!-- Single Feature Box -->
+                    </div> <!-- /.row -->
+                    <!-- View More Services Button -->
+                    <div class="section-button-wrapper">
+                        <a href="blog-standard.html" class="filled-btn bg-blue-chalk shadow-none px-4 py-2">
+                            Lihat Semua Galeri <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div> <!-- /.section-internal -->
@@ -741,22 +855,19 @@
         </section> <!-- /.blog-and-news-area --> 
         <!--====== End Blog or News Area ======-->
         <!--====== Start Testimonial Area ======-->
-        <section class="testimonial-area overflow-hidden border-0 pb-120">
-            <div class="container">
+        <section class="testimonial-area overflow-hidden border-0 pt-50 pb-50">
+            <div class="container-fluid">
                 <div class="section-internal">
-                    <div class="section-particle-effect d-none d-lg-block section-particle-effect-v2">
+                    <!-- <div class="section-particle-effect d-none d-lg-block section-particle-effect-v2">
                         <img class="particle-1 animate-zoom-fade" src="assets/img/testimonial/testimonial-bg-author-1.png" alt="particle One">
                         <img class="particle-3 animate-float-bob-x" src="assets/img/testimonial/testimonial-bg-author-2.png" alt="particle two">
                         <img class="particle-5 animate-zoom-fade" src="assets/img/testimonial/testimonial-bg-author-3.png" alt="particle three">
                         <img class="particle-7 animate-float-bob-y" src="assets/img/testimonial/testimonial-bg-author-4.png" alt="particle four">
-                    </div>
+                    </div> -->
                     <div class="row justify-content-center">
                         <div class="col-12">
                             <div class="section-title text-center section-title-clear-blue mb-33">
-                                <div class="section-heading-tag">
-                                    <span class="single-heading-tag">Client Reviews</span>
-                                </div>
-                                <h2>What Our Clients Say About <br class="d-none d-md-block"> Our Solutions</h2>
+                                <h2>Apa kata mereka tentang <br class="d-none d-md-block">Jurusan RPL SMK Negeri 1 Ciamis</h2>
                             </div>
                         </div>
                     </div>
@@ -807,6 +918,7 @@
             <div class="container">
                 <div class="footer-area-internal">
                     <div class="row">
+                        <div class="bg-footer"></div>
                         <!-- Single Footer Widget -->
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="single-footer-widget footer-text-widget">
@@ -889,5 +1001,7 @@
         <script src="assets/js/jquery.waypoints.js"></script>
         <!--====== Main Script ======-->
         <script src="assets/js/main.js"></script>
+        <script src="assets/plugin/owl-carousel/owl.carousel.min.js"></script>
+        <script src="assets/js/index.js"></script>
     </body>
 </html>
