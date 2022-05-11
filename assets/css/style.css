@@ -445,11 +445,11 @@ article .card{
 }*/
 .item-galeri a{
     color: #fff;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 .item-galeri p{
     color: rgb(173, 173, 173);
-    padding-left: 5px;
+    padding-left: 15px;
 }
 .grid-container img{
     border-radius: 8px;
@@ -510,17 +510,14 @@ article .card{
 /*  css owl galeri */
 .our-services.galeri .item-galeri{
     width: 350px;
-    margin: 17px;
 }
 
 .our-services.galeri .item-galeri .card{
     border-radius: 6px;
-    margin: 0px;
 }
 
 .our-services.galeri .item-galeri  .card .card-body{
-    padding: 15px 15px 15px 16px;
-    width: auto;
+    padding: 9px 15px 9px 15px;
 }
 
 .our-services.galeri .item-galeri img{
@@ -548,16 +545,15 @@ article .card{
 }
 
 .our-services.galeri .item-galeri .card .card-body img:nth-child(1){
-    width: 320px;
+    width: 300px;
     height: 150px;
     background-size: cover;
     background-position: center;
     margin: auto;
-    margin-left: 12px;
 }
 
 .our-services.galeri .item-galeri .card .card-body img{
-    width: 100px;
+    width: 93px;
     height: 60px;
     background-size: cover;
     background-position: center;
@@ -4151,7 +4147,7 @@ article .card{
     margin-left: -50px;
     margin-top: -30px;
     background-image: url(../img/services/single-service-bg.png);
-    background-size: contain;
+    background-size: cover;
     background-position: left bottom;
     background-repeat: no-repeat;
     opacity: 0;
